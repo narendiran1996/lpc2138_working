@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_ld.o"
+".\objects\blink_cpgm.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\stm.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\stm.map" -o .\Objects\stm.axf

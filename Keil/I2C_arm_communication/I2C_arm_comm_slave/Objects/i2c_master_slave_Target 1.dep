@@ -1,0 +1,14 @@
+Dependencies for Project 'i2c_master_slave', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 528"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\i2c_master_slave_cpgm.c)(0x5EAA1F4C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\i2c_master_slave_cpgm.o --omf_browse .\objects\i2c_master_slave_cpgm.crf --depend .\objects\i2c_master_slave_cpgm.d)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213X.h)(0x559CFE30)
+I (naren_lcd_include_all_func.h)(0x5EA7FE79)
+I (naren_i2c_slave_include.h)(0x5EAA1B52)
+F (.\naren_lcd_include_all_func.c)(0x5EA7FEEB)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\naren_lcd_include_all_func.o --omf_browse .\objects\naren_lcd_include_all_func.crf --depend .\objects\naren_lcd_include_all_func.d)
+I (naren_lcd_include_all_func.h)(0x5EA7FE79)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
+F (.\naren_lcd_include_all_func.h)(0x5EA7FE79)()
+F (.\naren_i2c_slave_include.c)(0x5EAA1E55)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\naren_i2c_slave_include.o --omf_browse .\objects\naren_i2c_slave_include.crf --depend .\objects\naren_i2c_slave_include.d)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213X.h)(0x559CFE30)
+I (naren_i2c_slave_include.h)(0x5EAA1B52)
+F (.\naren_i2c_slave_include.h)(0x5EAA1B52)()

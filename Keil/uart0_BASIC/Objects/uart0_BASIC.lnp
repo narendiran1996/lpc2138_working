@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\uart0_basic_cpgm.o"
+".\objects\naren_lcd_include_all_func.o"
+".\objects\naren_uart_include.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uart0_BASIC.map" -o .\Objects\uart0_BASIC.axf

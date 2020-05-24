@@ -1,0 +1,12 @@
+Dependencies for Project 'adc_', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 528"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\adc_cpgm.c)(0x5EACAFF4)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\adc_cpgm.o --omf_browse .\objects\adc_cpgm.crf --depend .\objects\adc_cpgm.d)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
+I (naren_lcd_include_all_func.h)(0x5EAB8ADA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB9D0A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB9D0A)
+F (.\naren_lcd_include_all_func.c)(0x5EAB8B76)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\naren_lcd_include_all_func.o --omf_browse .\objects\naren_lcd_include_all_func.crf --depend .\objects\naren_lcd_include_all_func.d)
+I (naren_lcd_include_all_func.h)(0x5EAB8ADA)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
+F (.\naren_lcd_include_all_func.h)(0x5EAB8ADA)()

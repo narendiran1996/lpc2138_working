@@ -1,0 +1,18 @@
+Dependencies for Project 'asdas', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_ld.s)(0x559D03AE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 528"--list .\listings\startup_stm32f10x_ld.lst --xref -o .\objects\startup_stm32f10x_ld.o --depend .\objects\startup_stm32f10x_ld.d)
+F (.\afsdf.c)(0x5EAEB99C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="528" -DSTM32F10X_LD-o .\objects\afsdf.o --omf_browse .\objects\afsdf.crf --depend .\objects\afsdf.d)
+I (stm32f10x.h)(0x5EAEB1B7)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D0EC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC2)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC2)
+I (system_stm32f10x.h)(0x5EAEB1B0)
+F (.\stm32f10x.h)(0x5EAEB1B7)()
+F (.\system_stm32f10x.c)(0x5EAEBA66)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="528" -DSTM32F10X_LD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (stm32f10x.h)(0x5EAEB1B7)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D0EC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC2)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC2)
+I (system_stm32f10x.h)(0x5EAEB1B0)
+F (.\system_stm32f10x.h)(0x5EAEB1B0)()

@@ -1,0 +1,59 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000 0000000A 
+                       N       EQU              10
+    2 00000000                 AREA             TEST_CODE,CODE,READONLY
+    3 00000000                 ENTRY
+    4 00000000 E3A0100A        MOV              R1,N
+    5 00000004 E0201191        MLA              R0,R1,R1,R1
+    6 00000008 E1A000A0        LSR              R0,#1
+    7 0000000C EAFFFFFE 
+                       FL      B                FL
+    8 00000010                 END
+Command Line: --debug --xref --diag_suppress=9931 --apcs=interwork --depend=.\o
+bjects\test.d -o.\objects\test.o -ID:\Keil_v5\ARM\RV31\INC -ID:\Keil_v5\ARM\CMS
+IS\Include -ID:\Keil_v5\ARM\INC\Philips --predefine="__EVAL SETA 1" --predefine
+="__UVISION_VERSION SETA 528" --list=.\listings\test.lst test.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+FL 0000000C
+
+Symbol: FL
+   Definitions
+      At line 7 in file test.s
+   Uses
+      At line 7 in file test.s
+Comment: FL used once
+TEST_CODE 00000000
+
+Symbol: TEST_CODE
+   Definitions
+      At line 2 in file test.s
+   Uses
+      None
+Comment: TEST_CODE unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+N 0000000A
+
+Symbol: N
+   Definitions
+      At line 1 in file test.s
+   Uses
+      At line 4 in file test.s
+Comment: N used once
+1 symbol
+335 symbols in table

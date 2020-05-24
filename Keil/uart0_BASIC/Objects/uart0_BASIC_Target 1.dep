@@ -1,0 +1,14 @@
+Dependencies for Project 'uart0_BASIC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 528"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\uart0_BASIC_cpgm.c)(0x5EA7FED7)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\uart0_basic_cpgm.o --omf_browse .\objects\uart0_basic_cpgm.crf --depend .\objects\uart0_basic_cpgm.d)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
+I (naren_lcd_include_all_func.h)(0x5EA7FE79)
+I (naren_uart_include.h)(0x5EA7FF06)
+F (.\naren_lcd_include_all_func.c)(0x5EA7FEEB)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\naren_lcd_include_all_func.o --omf_browse .\objects\naren_lcd_include_all_func.crf --depend .\objects\naren_lcd_include_all_func.d)
+I (naren_lcd_include_all_func.h)(0x5EA7FE79)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
+F (.\naren_lcd_include_all_func.h)(0x5EA7FE79)()
+F (.\naren_uart_include.h)(0x5EA7FF06)()
+F (.\naren_uart_include.c)(0x5EA7FEFE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\objects\naren_uart_include.o --omf_browse .\objects\naren_uart_include.crf --depend .\objects\naren_uart_include.d)
+I (naren_uart_include.h)(0x5EA7FF06)
+I (D:\Keil_v5\ARM\INC\Philips\LPC213x.h)(0x559CFE30)
